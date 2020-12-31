@@ -1,9 +1,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.github.jiashunx</groupId>
-  <artifactId>leetcode</artifactId>
+  <artifactId>self-learning-leetcode</artifactId>
   <version>1.0.0-SNAPSHOT</version>
-  <name>leetcode</name>
+  <name>self-learning-leetcode</name>
   <packaging>jar</packaging>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -26,9 +26,9 @@
   </licenses>
   <scm>
     <tag>master</tag>
-    <url>git@github.com:jiashunx/leetcode.git</url>
-    <connection>scm:git:git@github.com:jiashunx/leetcode.git</connection>
-    <developerConnection>scm:git:git@github.com:jiashunx/leetcode.git</developerConnection>
+    <url>git@github.com:jiashunx/self-learning-leetcode.git</url>
+    <connection>scm:git:git@github.com:jiashunx/self-learning-leetcode.git</connection>
+    <developerConnection>scm:git:git@github.com:jiashunx/self-learning-leetcode.git</developerConnection>
   </scm>
   <developers>
     <developer>
@@ -84,8 +84,8 @@
           <archive>
             <manifestEntries>
               <Manifest-Version>1.0</Manifest-Version>
-              <Bundle-Name>leetcode</Bundle-Name>
-              <Bundle-SymbolicName>leetcode</Bundle-SymbolicName>
+              <Bundle-Name>self-learning-leetcode</Bundle-Name>
+              <Bundle-SymbolicName>self-learning-leetcode</Bundle-SymbolicName>
               <Bundle-Version>${version}</Bundle-Version>
               <Bundle-RequiredExecutionEnvironment>J2SE-${jdk.compiler.version}</Bundle-RequiredExecutionEnvironment>
               <Bundle-Vendor>io.github.jiashunx</Bundle-Vendor>
